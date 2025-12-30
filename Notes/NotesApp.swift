@@ -16,7 +16,7 @@ struct NotesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NotesView()
                 .environment(\.managedObjectContext, CoreDataStack.shared.managedContext)
         }
     }

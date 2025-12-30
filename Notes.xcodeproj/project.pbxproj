@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9DA62E562E38C95200C85E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA62E532E38C95200C85E7E /* ContentView.swift */; };
+		9DA62E562E38C95200C85E7E /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA62E532E38C95200C85E7E /* NotesView.swift */; };
 		9DA62E572E38C95200C85E7E /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA62E542E38C95200C85E7E /* NotesApp.swift */; };
 		9DA62E582E38C95200C85E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA62E502E38C95200C85E7E /* Preview Assets.xcassets */; };
 		9DA62E592E38C95200C85E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA62E522E38C95200C85E7E /* Assets.xcassets */; };
@@ -22,7 +22,7 @@
 		9DA62E3E2E38C90200C85E7E /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA62E502E38C95200C85E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DA62E522E38C95200C85E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9DA62E532E38C95200C85E7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9DA62E532E38C95200C85E7E /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		9DA62E542E38C95200C85E7E /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
 		9DA62E5B2E38C96700C85E7E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		9DA62E5D2E38CA3C00C85E7E /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				9DA62E662E39909600C85E7E /* DetailsView.swift */,
 				9DA62E512E38C95200C85E7E /* Preview Content */,
 				9DA62E522E38C95200C85E7E /* Assets.xcassets */,
-				9DA62E532E38C95200C85E7E /* ContentView.swift */,
+				9DA62E532E38C95200C85E7E /* NotesView.swift */,
 				9DA62E542E38C95200C85E7E /* NotesApp.swift */,
 			);
 			path = Notes;
@@ -163,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DA62E562E38C95200C85E7E /* ContentView.swift in Sources */,
+				9DA62E562E38C95200C85E7E /* NotesView.swift in Sources */,
 				9DA62E572E38C95200C85E7E /* NotesApp.swift in Sources */,
 				9DA62E5F2E38CA3C00C85E7E /* Note+CoreDataClass.swift in Sources */,
 				9DA62E672E39909C00C85E7E /* DetailsView.swift in Sources */,

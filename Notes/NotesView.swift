@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct NotesView: View {
     @FetchRequest(entity: Note.entity(),
                   sortDescriptors: [NSSortDescriptor(keyPath: \Note.lastChangedValue, ascending: false)])
     var notes: FetchedResults<Note>
@@ -58,6 +58,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    NotesView()
         .environment(\.managedObjectContext, CoreDataStack.shared.managedContext)
 }

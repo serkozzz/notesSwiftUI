@@ -17,19 +17,19 @@ struct DetailsView: View {
                 get: { note.name },
                 set: { newValue in
                     note.name = newValue
-                    addNote()
+                    saveNote()
                 }))
             
             TextEditor(text: Binding<String> (
                 get: { note.text },
                 set: { newValue in
                     note.text = newValue
-                    addNote()
+                    saveNote()
                 }))
         }
     }
     
-    func addNote() {
+    func saveNote() {
         note.lastChanged = Date()
         try! note.managedObjectContext?.save()
     }
